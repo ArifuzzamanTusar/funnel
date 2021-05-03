@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 12, 2020 at 07:19 PM
+-- Generation Time: May 03, 2021 at 07:11 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.4
 
@@ -46,7 +46,8 @@ CREATE TABLE `admin_user` (
 
 INSERT INTO `admin_user` (`SL`, `user_id`, `username`, `first_name`, `last_name`, `email`, `password`, `role`, `status`, `phone`) VALUES
 (8, 'admin2162', 'peoms', 'Arifuzzaman', 'Tusar', 'arifuzzamantusar50@gmail.com', '1a1dc91c907325c69271ddf0c944bc72', 'admin', 1, ''),
-(9, 'abcdxyz5846', 'abcdxyz', '', '', 'lorem@ab.com', 'b59c67bf196a4758191e42f76670ceba', 'guest', 0, '');
+(9, 'abcdxyz5846', 'abcdxyz', '', '', 'lorem@ab.com', 'b59c67bf196a4758191e42f76670ceba', 'guest', 0, ''),
+(10, 'admin123', 'admin', '', '', '', '1a1dc91c907325c69271ddf0c944bc72', 'admin', 1, '');
 
 --
 -- Indexes for dumped tables
@@ -68,7 +69,7 @@ ALTER TABLE `admin_user`
 -- AUTO_INCREMENT for table `admin_user`
 --
 ALTER TABLE `admin_user`
-  MODIFY `SL` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `SL` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

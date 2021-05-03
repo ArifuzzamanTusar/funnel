@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 12, 2020 at 07:19 PM
+-- Generation Time: May 03, 2021 at 07:12 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.4
 
@@ -53,7 +53,12 @@ INSERT INTO `user` (`id`, `username`, `firstname`, `lastname`, `email`, `phone`,
 (8, 'raz', 'Jarjiash', 'Azam', 'raz@hotmail.com', '017212555', 'My talent is all about the idea  build', 'Rajshahi', '1997-12-04', 'Male', '1e48c4420b7073bc11916c6c1de226bb', '9560-raz.jpg'),
 (9, 'asd', 'f', '', 'fds', 'fds', '', '', '', '', 'dfsfds', ''),
 (10, 'peom1', '', '', ' peom@yahoo.com', ' 54554545', '', '', '', '', '1e48c4420b7073bc11916c6c1de226bb', ''),
-(11, 'dsa', '', '', ' peom@yahoo.com', ' 34', '', '', '', '', '87af382873ac12864910362ccc332497', '');
+(11, 'dsa', '', '', ' peom@yahoo.com', ' 34', '', '', '', '', '87af382873ac12864910362ccc332497', ''),
+(12, 'fuck', '', '', ' dadsa@de.de', ' 0111', '', '', '', '', '0aa1ea9a5a04b78d4581dd6d17742627', ''),
+(13, 'fuck1', '', '', ' tusar@fuck.com', ' 0', '', '', '', '', '1e48c4420b7073bc11916c6c1de226bb', ''),
+(14, 'hukka', '', '', ' fuck@hukka.coom', ' 00', '', '', '', '', '1e48c4420b7073bc11916c6c1de226bb', ''),
+(15, 'faak', '', '', ' hukka@fuck.com', ' 0', '', '', '', '', '1e48c4420b7073bc11916c6c1de226bb', ''),
+(16, 'demoAdmin', '', '', ' demo@demoadmin.com', ' 017545455', '', '', '', '', 'fe01ce2a7fbac8fafaed7c982a04e229', '');
 
 --
 -- Indexes for dumped tables
@@ -74,7 +79,7 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

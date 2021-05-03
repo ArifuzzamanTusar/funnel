@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 12, 2020 at 07:19 PM
+-- Generation Time: May 03, 2021 at 07:12 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.4
 
@@ -42,9 +42,9 @@ CREATE TABLE `slider` (
 --
 
 INSERT INTO `slider` (`slider_no`, `heading`, `sub_heading`, `disc`, `image`, `btn_txt`, `btn_url`) VALUES
-(1, 'Apple', 'Not Set', '<p>ad</p>', 'https://res.cloudinary.com/degujr87e/image/upload/v1607774369/funnel/milkyy_wglx3d.jpg', 'One plus series', '#'),
-(2, 'oppo', 'Not Set', '<p>sadsadasdsad</p>', 'https://res.cloudinary.com/degujr87e/image/upload/v1607774370/funnel/car-oppo_zrgpjj.jpg', 'sda', '#'),
-(3, 'One Plus', 'Not Set', '<p>sadsadsa</p>', 'https://res.cloudinary.com/degujr87e/image/upload/v1607774369/funnel/car-one_ntsduu.jpg', 'dsad', '#');
+(1, 'Apple', 'Not Set', '<p>convallis a pellentesque nec, egestas non nisi.convallis a pellentesque nec, egestas non nisi.convallis a pellentesque nec, egestas non nisi.</p>', 'https://res.cloudinary.com/degujr87e/image/upload/v1607774369/funnel/milkyy_wglx3d.jpg', 'One plus series', '#'),
+(2, 'oppo', 'Not Set', '<p>convallis a pellentesque nec, egestas non nisi.convallis a pellentesque nec, egestas non nisi.convallis a pellentesque nec, egestas non nisi.convallis a pellentesque nec, egestas non nisi.</p>', 'https://res.cloudinary.com/degujr87e/image/upload/v1607774370/funnel/car-oppo_zrgpjj.jpg', 'sda', '#'),
+(3, 'One Plus', 'Not Set', '<p>convallis a pellentesque nec, egestas non nisi.convallis a pellentesque nec, egestas non nisi.convallis a pellentesque nec, egestas non nisi.convallis a pellentesque nec, egestas non nisi.</p>', 'https://res.cloudinary.com/degujr87e/image/upload/v1607774369/funnel/car-one_ntsduu.jpg', 'dsad', '#');
 
 --
 -- Indexes for dumped tables
