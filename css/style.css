@@ -1,0 +1,124 @@
+body{
+    background: #e7e7de;
+
+}
+
+.widget{
+    background: white;
+    box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.415);
+    padding: 10px;
+    border-radius: 10px;
+}
+.prodct-texts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header */
+.header{
+    background: #0f3057;
+}
+
+.header_logo {
+    color: white;
+}
+
+.profile {
+    color: white;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+
+.product{
+    box-shadow: 0px 0px 20px rgb(193, 193, 193);
+    
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.p-image{
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0px 0px 50px gray;
+}
+
+.disription{
+    padding: 20px;
+}
+
+.featured-image{
+    padding-bottom: 10px;
+
+}
+.p-tittle{
+    
+    color: #00587a;
+    
+}
+.p-discription{
+    color: gray;
+}
+
+.p-del-price{
+    font-size: 18px;
+    color: #00587a; ;
+}
+.p-price{
+    display: block;
+    color: #008891;
+}
+
+.buy-now{
+    text-transform: uppercase;
+    background:  #0f3057;
+    transition: 1s;
+    margin-left: 15px;
+    box-shadow: 0px 0px 15px gray;
+
+}
+.buy-now:hover{
+    
+    letter-spacing: 2px;
+    transition: 1s;
+    margin-right: 10px;
+    box-shadow: 0px 0px 25px gray;
+    
+
+}
+.see-details{
+    text-transform: uppercase;
+    background: #008891;
+    transition: 1s;
+    box-shadow: 0px 0px 15px gray;
+
+
+}
+.see-details:hover{
+    letter-spacing: 2px;
+    transition: 1s;
+    box-shadow: 0px 0px 25px gray;
+
+
+}
+
+.footer{
+    background: rgb(196, 196, 196);
+}
+
+/* profile  */
+.tab{
+    background: #008891;
+    color: white;
+} 
+.tab:hover{
+    color: white;
+    background: teal;
+}
+.tab-active{
+    background: #00587a;
+
+
+}
