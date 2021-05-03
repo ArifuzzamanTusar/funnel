@@ -58,6 +58,11 @@ include "connection.php"
     <button name="login" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
     <a href="signup.php">Create an Account</a>
     <p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>
+    <code>
+        ----------demo admin----------  <br>
+        User: admin <br>
+        password: pass <br>
+      </code>
     <div class="validation pt-3">
       <!-- |||||||||||||||||||||||||||||||    VALIDATION   |||||||||||||||||||||||||||||| -->
       <?php

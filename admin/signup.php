@@ -40,10 +40,10 @@
   <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
 
   <label for="inputEmail" class="sr-only">Username</label>
-  <input type="email" id="inputEmail" class="form-control" placeholder="Username" required autofocus>
+  <input type="text" id="inputEmail" class="form-control" placeholder="Username" required autofocus>
 
   <label for="inputEmail" class="sr-only">Phone Number</label>
-  <input type="email" id="inputEmail" class="form-control" placeholder="Phone Number" required autofocus>
+  <input type="text" id="inputEmail" class="form-control" placeholder="Phone Number" required autofocus>
 
   <label for="inputPassword" class="sr-only">Password</label>
   <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
@@ -54,6 +54,8 @@
   </div>
   <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
   <a href="login.php">Already have an account</a>
+      
+
   <p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>
 </form>
 </body>

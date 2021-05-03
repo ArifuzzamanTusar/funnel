@@ -3,7 +3,7 @@
 
 
 <div class="footer p-3 text-center">
-  All right reserved <b> PeomsIslam </b>
+  All right reserved <b> Funnel </b>
  
 
 </div>
